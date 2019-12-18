@@ -5,8 +5,6 @@
 The application should connect to the following GraphQL endpoint https://rentancy-test.sourcestream.co.uk/graphql and
 query it using `getInventories: [Inventory]` and display the list of Inventories (in rows) with the following information:
 
-_Note: credentials for the GraphQL endpoint will be provided separately._
-
 1) Property `streetAddress`
 1) Property `city`
 1) Tenant   `firstName`
@@ -38,6 +36,8 @@ such as React [Material-UI](https://material-ui.com/) will be looked at very fav
 
 The GraphQL endpoint has been created using AWS' AppSync. There may be libraries that will aid you in connecting and 
 querying the data.
+
+_Note: credentials for the GraphQL endpoint will be provided separately._
 
 ## Rules
  
